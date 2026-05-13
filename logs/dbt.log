@@ -1,0 +1,58 @@
+[0m17:49:41.729574 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:49:41.828704 | fd375cef-0753-4914-b27c-1318a4bfd4e4 ==============================
+[0m17:49:41.828704 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:49:41.829956 [debug] [MainThread]: running dbt with arguments {'log_format': 'default', 'no_print': 'None', 'use_colors': 'True', 'target_path': 'None', 'cache_selected_only': 'False', 'warn_error': 'None', 'static_parser': 'True', 'partial_parse': 'True', 'log_path': 'logs', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'profiles_dir': 'C:\\Users\\ELECTRO FAJR\\.dbt', 'invocation_command': 'dbt init dbt_project', 'printer_width': '80', 'write_json': 'True'}
+[0m17:49:42.090673 [debug] [MainThread]: Starter project path: C:\Users\ELECTRO FAJR\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\dbt\include\starter_project
+[0m17:49:42.134797 [info ] [MainThread]: 
+Your new dbt project "dbt_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m17:49:42.135375 [info ] [MainThread]: Setting up your profile.
+[0m17:52:55.736428 [info ] [MainThread]: Profile dbt_project written to C:\Users\ELECTRO FAJR\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m17:52:55.738224 [debug] [MainThread]: Command `dbt init` succeeded at 17:52:55.738056 after 194.13 seconds
+[0m17:52:55.738624 [debug] [MainThread]: Flushing usage events
+[0m17:54:16.598497 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:54:16.655327 | 47d3c993-bd53-4b25-873d-77aa0adb33c7 ==============================
+[0m17:54:16.655327 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:54:16.656051 [debug] [MainThread]: running dbt with arguments {'invocation_command': 'dbt debug', 'cache_selected_only': 'False', 'target_path': 'None', 'profiles_dir': 'C:\\Users\\ELECTRO FAJR\\.dbt', 'no_print': 'None', 'warn_error': 'None', 'indirect_selection': 'eager', 'partial_parse': 'True', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True', 'fail_fast': 'False', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'log_path': 'logs', 'version_check': 'True', 'use_experimental_parser': 'False', 'quiet': 'False', 'introspect': 'True', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'use_colors': 'True', 'printer_width': '80', 'write_json': 'True'}
+[0m17:54:16.693239 [info ] [MainThread]: dbt version: 1.11.8
+[0m17:54:16.693948 [info ] [MainThread]: python version: 3.13.13
+[0m17:54:16.694435 [info ] [MainThread]: python path: C:\Users\ELECTRO FAJR\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\python.exe
+[0m17:54:16.694850 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m17:54:16.764034 [info ] [MainThread]: Using profiles dir at C:\Users\ELECTRO FAJR\.dbt
+[0m17:54:16.764542 [info ] [MainThread]: Using profiles.yml file at C:\Users\ELECTRO FAJR\.dbt\profiles.yml
+[0m17:54:16.764974 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\ELECTRO FAJR\Desktop\Data_build_tool_\dbt_project.yml
+[0m17:54:16.765434 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m17:54:16.766691 [debug] [MainThread]: Command `dbt debug` failed at 17:54:16.766558 after 0.26 seconds
+[0m17:54:16.767108 [debug] [MainThread]: Flushing usage events
+[0m17:58:25.945249 [debug] [MainThread]: Got an exception trying to initialize tracking
+
+
+============================== 17:58:26.000338 | 3c80e77d-41aa-425f-8326-a86654ac1aff ==============================
+[0m17:58:26.000338 [info ] [MainThread]: Running with dbt=1.11.8
+[0m17:58:26.001114 [debug] [MainThread]: running dbt with arguments {'no_print': 'None', 'profiles_dir': 'C:\\Users\\ELECTRO FAJR\\.dbt', 'use_colors': 'True', 'write_json': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'log_path': 'logs', 'partial_parse': 'True', 'fail_fast': 'False', 'send_anonymous_usage_stats': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'indirect_selection': 'eager', 'version_check': 'True', 'use_experimental_parser': 'False', 'introspect': 'True', 'quiet': 'False', 'empty': 'None', 'log_cache_events': 'False', 'debug': 'False', 'log_format': 'default', 'invocation_command': 'dbt test', 'printer_width': '80', 'target_path': 'None'}
+[0m17:58:26.001671 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\ELECTRO FAJR\Desktop\Data_build_tool_\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m17:58:26.003076 [debug] [MainThread]: Command `dbt test` failed at 17:58:26.002882 after 0.16 seconds
+[0m17:58:26.003548 [debug] [MainThread]: Flushing usage events
