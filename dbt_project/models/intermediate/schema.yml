@@ -1,0 +1,9 @@
+version: 2
+
+models:
+  - name: int_player_statics
+    tests:
+      - not_null:
+          column_name: player_name
+      - unique:
+          column_name: player_name

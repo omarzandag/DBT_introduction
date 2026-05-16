@@ -1,0 +1,22 @@
+version: 2
+
+models:
+  - name: stg_goals
+    description: "Staging model for goals data"
+    columns:
+      - name: player_name
+        description: "Name of the player"
+      - name: club_name
+        description: "Name of the club"
+      - name: position
+        description: "Position of the player"
+      - name: goals
+        description: "Number of goals scored"
+      - name: matches
+        description: "Number of matches played"
+      - name: inside
+        description: "Number of goals scored from inside the area"
+      - name: outside
+        description: "Number of goals scored from outside the area"
+      - name: penalties
+        description: "Number of goals scored from penalties"
